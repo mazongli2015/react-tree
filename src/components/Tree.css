@@ -1,0 +1,25 @@
+.tree-container, .tree-branch-node {
+    list-style-type: none;
+}
+.tree-branch-node {
+    padding-left: 0.24rem;
+}
+
+.tree-li {
+    margin: 5px auto;
+}
+
+
+.branch-icon {
+  font-size: 0.08rem !important;
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: #fff;
+  position: absolute;
+  transform: translate(-0.245rem,0.04rem);
+}
+
+.branch-icon-text-container {
+  height: 0.24rem;
+}

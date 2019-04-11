@@ -1,0 +1,78 @@
+.edit-btn{
+    color: #336afe;
+    margin-right: 12px;
+    float: right;
+    cursor: pointer;
+}
+
+#tree .tree-container{
+    width: 4.48rem;
+}
+
+#tree .level1 {
+    display: inline-block;
+    width: 100%;
+    background: #f5f5f5;
+    position: relative;
+}
+
+#tree .level1:hover{
+    cursor: pointer;
+    /* border: 1px solid blue; */
+}
+
+#tree .tree-leaf-node:hover {
+    cursor: pointer;
+    /* border: 1px solid blue; */
+}
+
+.delete-btn{
+    color: #fe3333;
+}
+.rename-btn{
+    margin-top: 8px;
+}
+
+.modal-container p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 8px 0;
+}
+
+.modal-container p:first{
+    margin-top: 0;
+}
+
+.modal-container p:hover {
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.node-text{
+    padding-left: 8px;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+.node-input {
+    border: 1px solid #336afe;
+}
+
+
+input:-webkit-autofill,select:-webkit-autofill {  
+    box-shadow: 0 0 0px 1000px white  inset !important;  
+} 
+ 
+input{
+    outline-color: invert ;
+	outline-style: none ;
+	outline-width: 0px ;
+	border: none ;
+	border-style: none ;
+	text-shadow: none ;
+	-webkit-appearance: none ;
+	-webkit-user-select: text ;
+	outline-color: transparent ;
+	box-shadow: none;
+}

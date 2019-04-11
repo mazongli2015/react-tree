@@ -1,0 +1,7 @@
+.modal-container{
+    position: absolute;
+    box-shadow: 7px 7px 5px gray, 7px -7px 5px gray, -7px 7px 5px gray, -7px -7px 5px gray;
+    background: #ffffff;
+    padding: 10px 10px;
+    z-Index: 200;
+}
